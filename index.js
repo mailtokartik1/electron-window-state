@@ -157,6 +157,8 @@ module.exports = function (options) {
     get displayBounds() { return state.displayBounds; },
     get isMaximized() { return state.isMaximized; },
     get isFullScreen() { return state.isFullScreen; },
+    set x(x) { state.x = x; },
+    set y(y) { state.y = y; },
     saveState,
     unmanage,
     manage
